@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        .h1{
+            color: rgb(255, 255, 255);
+            margin-left: 25%;
+           font-family: Bree_serif ;
+        }
+        .con{
+            position: fixed;
+            background-color:	#ff5eae;
+            max-width: 100%;
+            width: 30%;
+            height: 65%;
+            margin-left: 30%;
+            margin-top: 7%;
+            border-radius: 3%;
+            padding-left:7%;
+            border: 2px white;
+        }
+        input[type=text] {
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        background-color: rgb(255, 137, 210);
+        color: rgb(255, 255, 255);
+        }
+        input[type=number]{
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        background-color: rgb(255, 137, 210);
+        color: rgb(255, 255, 255);
+        }
+        input[type=datetime-local]{
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        background-color: rgb(255, 137, 210); 
+        color: rgb(255, 255, 255);
+        }
+        body{
+            background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2016/09/30/1021497/91ca2db83a145a280ea37270e6a9d543.jpg);
+            background-size: 1700px 900px;
+            
+        }
+        .button{
+            background-color:rgb(255, 137, 210); 
+            border-radius: 4px;
+            border-color: white;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section class="con">
+    <h1 class="h1">Rgistration Form</h1>
+    Enter the First Name :     <input type="text" name="a" id="a">
+    <br>
+    <br>
+    Enter the Middle name :    <input type="text"name="b" id="b">
+    <br>
+    <br>
+    Enter the last name :      <input type="text" name="c" id="c">
+    <br>
+    <br>
+    Enter the Age :            <input type="number" name="d" id="d">
+    <br>
+    <br>
+    Enter the Father's name :  <input type="text" name="e" id="e">
+    <br>
+    <br>
+    Enter the Mother's name :  <input type="text" name="f" id="f">
+    <br>
+    <br>
+    Enter Your Date of Birth : <input type="datetime-local" name="g" id="g">
+    <br>
+    <br>
+    Enter your present Address : <input type="text" name="h" id=h>
+    <br>
+    <br>
+    Enter your phone number :   <input type="number" name="i" id="i">
+    <br>
+    <br>
+    <button  class="button"onclick="pass(document.getElementById('a').value,document.getElementById('b').value, document.getElementById('c').value,document.getElementById('d').value,document.getElementById('e').value,document.getElementById('f').value,document.getElementById('g').value,document.getElementById('h').value,document.getElementById('i').value)">Submit</button>
+</section>
+    <script>
+
+        function pass(a,b,c,d,e,f,g,h,i){
+            alert("First name : "+a + "\n" + " Middle name : " +b +"\n" + "Last name :"+c +"\n" + "Age : "+d +"\n" + "Father's name : "+e +"\n" + "Mother's name : "+f +"\n" + "DOB : "+g +"\n" + "Present Address : " +h + "\n" + "Phone Number : " +i +"\n");
+        }
+    </script>
+</body>
+</html>

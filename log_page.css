@@ -1,0 +1,52 @@
+
+input[type=text], select {
+    width: 90%;
+    padding: 20px 20px;
+    margin: 20px 20px 20px 20px ;
+    display: inline-block;
+    border: 1px solid #ff6600;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  ::-webkit-input-placeholder {
+    color: rgb(255, 94, 0);
+    font-weight: 600;
+}
+
+input, select, textarea{
+  color: #ff6600;
+}
+.section
+{ 
+  align-content: center;
+}
+
+
+.bg
+{
+position: center;
+width: 550px;
+height: 350px;
+background:rgb(255, 238, 0);
+border-radius: 20px;
+}
+
+input[type=password], select {
+  width: 90%;
+  padding: 20px 20px;
+  margin: 20px 20px 20px 20px ;
+  display: inline-block;
+  border: 1px solid rgb(228, 87, 6);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn{
+width: 211px;
+height: 69px;
+left: 281px;
+top: 335px;
+background: #ff7b00;
+border-radius: 10px;
+margin-left: 30%;
+margin-top:5%;
+}

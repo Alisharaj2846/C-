@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+      body{
+             background-image: url(http://psdblast.com/wp-content/uploads/2015/10/4.jpg);
+             background-size: 1550px 750px;
+      }
+      .button{
+             background-color:palevioletred ;
+             color: black;
+             
+      }
+      .button:hover{
+             background-color: rgb(255, 0, 76);
+      }
+       </style>
+</head>
+<body">
+   <form>
+       <label for="fname">First Name : </label>
+       <input type="text" id="fname" required>
+</br>
+</br>
+       <label for="Mname">Middle Name : </label>
+       <input type="text" id="Mname">
+</br>
+</br>
+       <label for="Lname">Last Name : </label>
+       <input type="text" id="Lname" required>
+</br>
+</br>
+       <label for="FName">Father's Name : </label>
+       <input type="text" id="Fname" required >
+</br>
+</br>
+       <label for="Moname">Mother's Name : </label>
+       <input type="text" id="Moname" required>
+</br>
+</br>
+       <label for="DOB">Date of birth : </label>
+       <input type="datetime-local" id="DOB" required>
+</br>
+</br>  
+       <label for="Addre">Present Address</label>
+       <textarea id="Addre" name="Address" rows="5" column="5"> </textarea>
+</br>
+</br>
+       <label for="Age">Age : </label>
+       <input type="number" id="Age" required>
+</br>
+<br>
+       <label for="Addr">state : </label>
+    <select name="Addr" id="Addr">
+    <option value="Jharkhand">Jharkhand</option>
+    <option value="Bihar">Bihar</option>
+    <option value="Andra Pradesh">Andra Pradesh</option>
+    <option value="Assam">Assam</option>
+    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+    <option value="Chhattisgarh">Chhattisgarh</option>
+    <option value="Goa">Goa</option>
+    <option value="Gujarat">Gujarat</option>
+    <option value="Haryana">Haryana</option>
+    <option value="Himachal Pradesh">Himachal Pradesh</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Madhya Pradesh">Madhya Pradesh</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Maghalaya">Maghalaya</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Odisha">Odisha</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Sikiim">Sikkim</option>
+    <option value="Tamil Nadu">Chennai</option>
+    <option value="Telangana">Telangana</option>
+    <option value="Tripura">Tripura</option>
+    <option value="Uttar Pradesh">Uttar Pradesh</option>
+    <option value="Uttarakhand">Uttarakhand</option>
+    <option value="West Bengal">West Bengal</option>
+  </select>
+</br>
+</br>
+    <label for="Gender">Gender : </label>
+    <input type="radio" name="Gen">female
+    <input type="radio" name="Gen">Male
+</br>
+</br>
+    <label for="pho">Phone : </label>
+    <input type="number" id="pho" min="1" step="1" required> 
+</br>
+</br>
+    <label for="sch">Present School or college : </label>
+    <input type="text" id="sch" required>
+</br>
+</br>
+    <label for="file">Choose file : </label>
+    <input type="file" name="fileToUpload" id="fileToUpload" accept="image/*">
+</br>
+</br>
+   </form>
+</br>
+</br>
+   <form method="get" action="q1.html">
+          <button class="button" style="font-size: 200%;">SUBMIT</button>
+   </form>
+</body>
+</html>

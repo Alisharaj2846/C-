@@ -1,0 +1,45 @@
+     body 
+     {
+     	background-image: url("d:/downloads/meadow.jpg");
+     
+     }p
+      {
+      	color: blue;
+   
+
+      }
+		 h1
+		 {
+		 	font-family: cursive;
+		 	background-color: red;
+		 	font-size: 50px;
+		 }
+		 h2
+		 {
+		 	font-family: cursive;
+		 	background-color: honeydew;
+		 	font-size: 40px;
+		 }
+
+        h3
+		 {
+		 	font-family: cursive;
+		 	background-color: skyblue;
+		 	font-size: 30px;
+		 }
+		 h4
+		 {
+		 	font-family: cursive;
+		 	background-color: orange;
+		 	font-size: 20px;
+		 }
+
+		 h5
+		 {
+		 	font-family: cursive;
+		 	background-color: blue;
+		 	font-size: 10px;
+		 }
+		 table, th, td {
+  border: 10px dotted;
+}
